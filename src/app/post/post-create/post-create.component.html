@@ -1,6 +1,6 @@
 <h1>Our first app</h1>
 
-<textarea rows="6">{{newPost}}</textarea>
+<textarea rows="6" [(ngModel)]="enteredValue"></textarea>
 
 <br>
 <button (click)="onAddPost()" >Save</button>

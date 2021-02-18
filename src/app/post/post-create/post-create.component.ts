@@ -9,6 +9,14 @@ import { Component } from "@angular/core";
 
 export class PostCreateComponent {
 
+  newPost = 'Nothing';
+
+  onAddPost(){
+
+      this.newPost = "The Users Post";
+
+
+  }
 
 
 }
